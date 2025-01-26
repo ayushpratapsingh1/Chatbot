@@ -1,8 +1,22 @@
-# 💬 Chatbot template
+# 💬 Enhanced Gemini Chatbot
 
-A simple Streamlit app that shows how to build a chatbot using OpenAI's GPT-3.5.
+A feature-rich Streamlit chatbot using Google's Gemini Pro model.
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-template.streamlit.app/)
+
+### Requirements
+
+To run this app, you'll need:
+- A Google API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
+- Python 3.7+
+
+### Features
+
+- Adjustable model parameters (temperature, max tokens)
+- Custom system messages to control AI behavior
+- Chat history management (clear, export)
+- Error handling and loading states
+- Responsive interface with sidebar controls
 
 ### How to run it on your own machine
 
@@ -17,3 +31,8 @@ A simple Streamlit app that shows how to build a chatbot using OpenAI's GPT-3.5.
    ```
    $ streamlit run streamlit_app.py
    ```
+
+### Dependencies
+
+- streamlit
+- google-generativeai
